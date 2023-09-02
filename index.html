@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form>
+        <div class="date">
+                <div class="day">
+                    <label for="day">DAY</label>
+                    <input type="number" id="day" placeholder="DD">
+                </div>
+                <div class="month">
+                    <label for="month">MONTH</label>
+                    <input type="number" id="month" placeholder="MM">
+                </div>
+                <div class="year">
+                    <label for="year">YEAR</label>
+                    <input type="number" id="year" placeholder="YYYY">
+                </div>
+        </div>
+        <button type="submit" class="submit_btn"><img src="images/icon-arrow.svg" alt="icon"></button>
+    </form>
+        <div class="date-out">
+            <h1><span id="years">- - </span>years</h1>
+            <h1><span id="months">- - </span>months</h1>
+            <h1><span id="days">- - </span>days</h1>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
